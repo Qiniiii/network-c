@@ -45,7 +45,7 @@ int main() {
 
 	while(1){
 		unsigned int len, n; 
-		len = sizeof(clientAdd); //len is value/resuslt 
+		len = sizeof(clientAdd); //len is value/result 
 		int fou=0;
 		n = recvfrom(sockfd, (char *)buffer, MAXLINE, 
 					MSG_WAITALL, ( struct sockaddr *) &clientAdd, 
